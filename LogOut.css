@@ -1,0 +1,41 @@
+/* LogOut.css */
+
+.account {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #f7f7f7; /* Light background color */
+  }
+  
+  .details {
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff; /* White background color */
+    max-width: 400px; /* Set a maximum width for better readability */
+  }
+  
+  p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #333; /* Dark text color */
+  }
+  
+  button {
+    background-color: #3498db; /* Blue */
+    color: #fff; /* White text color */
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+    transform: scale(1.05); /* Slightly scale up on hover */
+  }
+  

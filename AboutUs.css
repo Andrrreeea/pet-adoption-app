@@ -1,0 +1,61 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .about-us-container {
+    max-width: 100%;
+    padding: 80px;
+  }
+
+  header {
+    background-color: #fffeff; 
+    color: rgb(209, 116, 116);
+    text-align: center;
+    padding: 1em;
+    margin-bottom: 20px; 
+  }
+  
+  section {
+    margin: 20px 0;
+  }
+  
+  h2 {
+    color: #d4506d; 
+  }
+  
+  .team-member {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  ul li {
+    margin-bottom: 8px;
+  }
+  
+  a {
+    color: #d4506d;
+    text-decoration: none;
+    margin-left: 5px;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  footer {
+    background-color: #d4506d; 
+    color: white;
+    text-align: center;
+    padding: 1em;
+  }
+  

@@ -1,0 +1,49 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .homepage-container {
+    min-height: 100vh;
+  }
+  
+  .background {
+    width: 100%;
+    background: url('../images/dog-in-a-box.jpg') no-repeat center top fixed;
+    background-size: cover;
+  }
+  
+  .content {
+    height: 100vh;
+    padding: 8rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .content p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 2rem;
+  }
+  
+  @media (max-width: 768px) {
+    .content h1 {
+      font-size: 2rem;
+    }
+    
+    .content p {
+      font-size: 1rem;
+    }
+  }
+
+  

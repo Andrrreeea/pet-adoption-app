@@ -1,0 +1,57 @@
+/* AnimalDetails.css */
+.animal-details-container {
+  position: fixed;
+  top: 30%; /* Adjusted top value */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20vw; /* Adjusted width as a percentage of viewport width */
+  height:1vh;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 998; /* Ensure the pop-up is on top */
+  margin-top: 20vh;
+}
+
+.animal-details-content {
+  background: #fff;
+  width: 100%; /* Adjusted width */
+  height: 490px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.animal-details-image {
+  width: 100%; /* Adjusted image width */
+  max-height: 200px; /* Adjusted maximum image height */
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.animal-details-info {
+  padding: 10px;
+  height: fit-content;
+}
+
+h2 {
+  color: #d4506d;
+}
+
+.close-btn {
+  background-color: #d4506d;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.close-btn:hover {
+  background-color: #a43a55;
+}
